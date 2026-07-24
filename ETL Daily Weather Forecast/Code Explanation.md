@@ -54,7 +54,7 @@ So `u+x means` *“Give the user (file owner) permission to execute this file as
 
 At this point in the work, we should be able to visualise the `rx_poc.sh` file appearing in the Explorer pane on the upper-left side of our EDI screen. Thus, we can double-click it and begin the scripting. 
 
-![Screenshot 11](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Linux%20Images/Screenshot%2011.JPG?raw=true)  
+![Screenshot 11](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784881792/Screenshot_11_j6kw60.jpg)  
 
 # **`rx_poc.sh`**  
 
@@ -194,15 +194,15 @@ bash rx_poc.sh
 
 The result on the terminal will vary according to the date in which is launched; however, it will appear similar to the following.  
 
-![Screenshot 12](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Linux%20Images/Screenshot%2012.jpg?raw=true)  
+![Screenshot 12](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784881792/Screenshot_12_qfpxmh.jpg)  
 
-The program will also generate the file [rx_poc.log](https://github.com/MatteoMel1985/Hands-on-Introduction-to-Linux-Commands-and-Shell-Scripting_IBM-Data-Engineering/blob/main/ETL%20Daily%20Weather%20Forecast/rx_poc.log) and [weather_report](https://github.com/MatteoMel1985/Hands-on-Introduction-to-Linux-Commands-and-Shell-Scripting_IBM-Data-Engineering/blob/main/ETL%20Daily%20Weather%20Forecast/weather_report), which were uploaded to the repository for consultation. 
+The program will also generate the file [rx_poc.log](./rx_poc.log) and [weather_report](./weather_report), which were uploaded to the repository for consultation. 
   
  # *Section 10: Schedule `rx_poc.sh` to run every day at noon local time*  
 
 Given that Casablaca is located in the UTC+1 timezone, the method suggested by IBM Network to calculate the hour difference between my local time zone and the one of Morocco is to type in the terminal the command `date`, which will output my local timestamp. Once done, they suggest to proceed by typing `date -u`, which will print the timestamp of UTC+1, and proceed by comparing their difference. The following is the result obtained on my terminal.  
 
-![Screenshot 13](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Linux%20Images/Screenshot%2013.jpg?raw=true)  
+![Screenshot 13](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784881792/Screenshot_13_u30jmk.jpg)  
 
 However, due to the presence of permanent daylight saving time, the result is quite inaccurate, as it is behind by an hour. Therefore, my timezone is ahead of 7 hours in respect to Casablanca. This must be kept into account once we proceed by programming crontab.  
 To open crontab, we can type the following command on the terminal.  
@@ -237,7 +237,7 @@ crontab -l
 
 It will appear as follows.  
 
-![Screenshot 10](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Linux%20Images/Screenshot%2010.jpg?raw=true)
+![Screenshot 10](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784881792/Screenshot_10_yndr4a.jpg)
 
 It is key to remind that, to activate crontab, we must run the following command from the terminal. 
 
