@@ -226,4 +226,5 @@ sudo service cron stop
 
 7. Take a screenshot of the output of `crontab -l` and save as `17-crontab.jpg` or `.png`.
 
-# Author: [Matteo Meloni](https://www.linkedin.com/in/matteo-meloni-40a357154/)
+# Author
+# ***[Matteo Meloni](https://www.linkedin.com/in/matteo-meloni-40a357154/)***
