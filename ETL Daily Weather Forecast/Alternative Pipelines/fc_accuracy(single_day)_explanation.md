@@ -1,6 +1,6 @@
 # ***Preliminary Requirements***
 
-1. `fc_accuracy(single_day)` reads the tail of this specific [rx_poc.log](./rx_poc.log) file, which was previously created and filled by launching the script [rx_poc.sh](./rx_poc.sh) (see [Code Explanation.md](./Code%20Explanation.md_)).
+1. `fc_accuracy(single_day)` reads the tail of this specific [rx_poc.log](./rx_poc.log) file, which was previously created and filled by launching the script [rx_poc.sh](./rx_poc.sh) (see [Code Explanation.md](./Code%20Explanation.md)).
 
 | year | month | day | obs_temp | fc_temp |
 | ---- | ----- | --- | -------- | ------- |
